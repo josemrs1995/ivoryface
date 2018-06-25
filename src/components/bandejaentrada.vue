@@ -23,22 +23,99 @@
                     <div class="punto"></div>
                     </div>
                     <div class="cajita contenido">
+                        <h2><b>Jose Rivero</b></h2>
                         <h3 class="titulo">titulo tal</h3>
                         <p class="mensajito"></p>
                     </div>
                     
                 </div>
-                <div class="caja">
-                    <img src="../assets/recursos/foto-01.png" class="foto">
+                 <div class="caja msj ">
+                    <div class="cajita foto ">
+                    <img src="../assets/recursos/foto-01.png" style="border-radius: 50%;">
                     <div class="punto"></div>
+                    </div>
+                    <div class="cajita contenido">
+                        <h3 class="titulo">titulo tal</h3>
+                        <p class="mensajito"></p>
+                    </div>
+                    
                 </div>
-                <div class="caja">
-                    <img src="../assets/recursos/foto-01.png" class="foto">
+                 <div class="caja msj ">
+                    <div class="cajita foto ">
+                    <img src="../assets/recursos/foto-01.png" style="border-radius: 50%;">
                     <div class="punto"></div>
+                    </div>
+                    <div class="cajita contenido">
+                        <h3 class="titulo">titulo tal</h3>
+                        <p class="mensajito"></p>
+                    </div>
+                    
                 </div>
-                <div class="caja">
-                    <img src="../assets/recursos/foto-01.png" class="foto">
+                 <div class="caja msj ">
+                    <div class="cajita foto ">
+                    <img src="../assets/recursos/foto-01.png" style="border-radius: 50%;">
                     <div class="punto"></div>
+                    </div>
+                    <div class="cajita contenido">
+                        <h3 class="titulo">titulo tal</h3>
+                        <p class="mensajito"></p>
+                    </div>
+                    
+                </div>
+                  <div class="caja msj ">
+                    <div class="cajita foto ">
+                    <img src="../assets/recursos/foto-01.png" style="border-radius: 50%;">
+                    <div class="punto"></div>
+                    </div>
+                    <div class="cajita contenido">
+                        <h3 class="titulo">titulo tal</h3>
+                        <p class="mensajito"></p>
+                    </div>
+                    
+                </div>
+                  <div class="caja msj ">
+                    <div class="cajita foto ">
+                    <img src="../assets/recursos/foto-01.png" style="border-radius: 50%;">
+                    <div class="punto"></div>
+                    </div>
+                    <div class="cajita contenido">
+                        <h3 class="titulo">titulo tal</h3>
+                        <p class="mensajito"></p>
+                    </div>
+                    
+                </div>
+                  <div class="caja msj ">
+                    <div class="cajita foto ">
+                    <img src="../assets/recursos/foto-01.png" style="border-radius: 50%;">
+                    <div class="punto"></div>
+                    </div>
+                    <div class="cajita contenido">
+                        <h3 class="titulo">titulo tal</h3>
+                        <p class="mensajito"></p>
+                    </div>
+                    
+                </div>
+                  <div class="caja msj ">
+                    <div class="cajita foto ">
+                    <img src="../assets/recursos/foto-01.png" style="border-radius: 50%;">
+                    <div class="punto"></div>
+                    </div>
+                    <div class="cajita contenido">
+                        <h3 class="titulo">titulo tal</h3>
+                        <p class="mensajito"></p>
+                    </div>
+                    
+                </div>
+                  <div class="caja msj ">
+                    <div class="cajita foto ">
+                    <img src="../assets/recursos/foto-01.png" style="border-radius: 50%;">
+                    <div class="punto"></div>
+                    </div>
+                    <div class="cajita contenido">
+                        <h3 class="titulo">titulo tal</h3>
+                        <p class="mensajito"></p>
+                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -59,7 +136,6 @@ $degradado:linear-gradient(45deg, rgba(77,166,254,1) 0%, rgba(0,228,253,1) 100%)
 .bandeja{
     position: relative;
     width: 100%;
-    
 }
 .boton{
     text-decoration: none;
@@ -135,14 +211,14 @@ $degradado:linear-gradient(45deg, rgba(77,166,254,1) 0%, rgba(0,228,253,1) 100%)
      }
 }
 .mensajes{
-    height: 350px;
+    height: 760px;
     overflow: hidden;
     overflow-y: scroll;  
     position: relative;
     right: -17px;
 }
 .cont{
-    transform:translate(0px,127px);
+    transform:translate(0px,117px);
     overflow: hidden;
     right: 9px;
     position: relative

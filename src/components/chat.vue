@@ -1,7 +1,7 @@
 <template>
     <div class="container">
       <router-link to="/">Volver</router-link>
-      <div class="columns is-marginless is-12 chat size">
+      <div class="columns is-marginless is-12 chat">
           <div class="column is-3 size ">
             <bandejaentrada></bandejaentrada>
           </div>
@@ -42,8 +42,8 @@ $gris_claro:#D3D3D3;
     font-size: 15px;
 }
   .size{
-    height: 550px;
-    border: solid;
+    height: auto;
+
   }
 </style>
 
