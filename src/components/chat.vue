@@ -42,7 +42,7 @@ $gris_claro:#D3D3D3;
     font-size: 15px;
 }
   .size{
-    height: auto;
+    height: 80vh;
 
   }
 </style>
