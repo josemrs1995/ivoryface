@@ -19,7 +19,7 @@
             
             <div class="mensajes">
                 <div class="caja msj ">
-                     <div class="red"><img src="../assets/Recursos/logo-twitter-degradado.png" width="18px" height="18 px" style="cursor:pointer;"></div>
+                    <div class="red"><img src="../assets/recursos/logo-facebook-degradado.png" width="18px" height="18 px" style="cursor:pointer;"></div>
                     <div class="cajita foto ">
                     <img src="../assets/recursos/foto-01.png" style="border-radius: 50%;">
                     <div class="punto"></div>
@@ -39,7 +39,7 @@
                     </div>
                 </div>
                 <div class="caja msj ">
-                     <div class="red"><img src="../assets/Recursos/logo-facebook-degradado.png" width="18px" height="18 px" style="cursor:pointer;"></div>
+                     <div class="red"><img src="../assets/recursos/logo-facebook-degradado.png" width="18px" height="18 px" style="cursor:pointer;"></div>
                     <div class="cajita foto ">
                     <img src="../assets/recursos/foto-01.png" style="border-radius: 50%;">
                     <div class="punto"></div>
@@ -78,6 +78,7 @@ $grisc:#D3D3D3;
 .bandeja{
     position: relative;
     width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .boton{
     text-decoration: none;

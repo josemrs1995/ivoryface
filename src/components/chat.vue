@@ -6,7 +6,7 @@
             <bandejaentrada></bandejaentrada>
           </div>
           <div class="column is-6 ">
-            hola mundo 2
+            <bandejamensajes></bandejamensajes>
           </div>
           <div class="column is-3 ">
             hola mundo 3 
@@ -16,6 +16,7 @@
 </template>
 <script>
 import bandejaentrada from "./bandejaentrada";
+import bandejamensajes from "./bandejamensajes";bandejamensajes
 export default {
   name: 'chat',
   methods:{
@@ -23,6 +24,7 @@ export default {
   },
   components:{ 
     'bandejaentrada':bandejaentrada,
+    'bandejamensajes':bandejamensajes,
   }
 }
 </script>
