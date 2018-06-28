@@ -17,8 +17,33 @@
         </div>
         <div class="mensajes mensaje-recibido">
             <p>Acudo a Uds. porque tengo un problema que me parece que se puede solucionar por customizing...
-                Sucede que me he encontrado que el sistema está configurado para que se generen mensajes cuando se crean pedidos por la ME21N.
            </p>
+        </div>
+        <div class="mensajes mensaje-recibido">
+            <p>Atento a su respuesta</p>
+        </div>
+         <div class="mensajes mensaje-enviado">
+            <p>Atento a su respuesta</p>
+        </div>
+        <div class="mensajes mensaje-recibido">
+            <p>Acudo a Uds. porque tengo un problema que me parece que se puede solucionar por customizing...
+           </p>
+        </div>
+    </div>
+    <div class="escribir">
+        <div class="mensseger columns">
+            <div class="img column is-2"><img src="../assets/recursos/foto-01.png" style="border-radius: 50%;" width="35px" height="35px"></div>
+            <div class="msg column is-10">
+                <textarea placeholder="Escribe un mensaje"></textarea>
+                <div class="iconos-action">
+                    <a href="javascript:void(0)" class="item"><img src="../assets/mensajes/icon-adjunto.png" width="25px" height="35px"></a>
+                    <a href="javascript:void(0)" class="item"><img src="../assets/mensajes/icon-emoticons.png" width="25px" height="35px"></a>
+                    <a href="javascript:void(0)" class="item"><img src="../assets/mensajes/icon-respuesta-guardada.png" width="25px" height="18px"></a>
+                    <a href="javascript:void(0)" class="item"><img src="../assets/mensajes/Artboard – 46.png" width="25px" height="18px"></a>
+                    
+                </div>
+            </div>
+            
         </div>
     </div>
 </div>
@@ -37,18 +62,17 @@ $verdea:#75EAFF;
 $degradado:linear-gradient(45deg, rgba(77,166,254,1) 0%, rgba(0,228,253,1) 100%);
 $grisc:#D3D3D3;
 .bandejamensajes{
-    border: solid;
     position: relative;
     font-family: Arial, Helvetica, sans-serif;
 }
 .usuario{
     //right: -17px;
-    margin-top: 10px; 
+    //margin-top: 10px; 
     margin-left: 28px;
     display: flex;
     position: relative;
     align-items: center; 
-    height: 100px;
+    height: 61px;
     //justify-content: space-around;
 }
 .foto{
@@ -84,21 +108,74 @@ $grisc:#D3D3D3;
 }
 .mensajes{
     position: relative;
-    width: 100%;
-    height: 50px;
+    //height: 50px;
     margin-top: 10px;
     color: $gris;
+    font-size: 12px;
     &.mensaje-recibido{
         width: auto;
         height: auto ;
-        font-size: 14px;
+        font-size: 13px;
         border-radius: 6px;
         background: $degradado;
         color: $blanco;
         text-align: justify;
         max-width: 84%;  
         padding: 15px 15px 15px 15px;
+        //display:inline-block;
+        float: left;
+        clear: both;
     }
+    &.mensaje-enviado{
+        width: auto;
+        height: auto;
+        font-size: 13px;
+        border-radius: 6px;
+        background: #efefef;
+        text-align: justify;
+        max-width: 84%;
+        padding: 15px 15px 15px 15px;
+        float: right;  
+        color: $gris;
+        clear: both; 
+    }
+}
+.escribir{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  
+  //height: 50px;
+}
+.mensseger{
+    float: left;
+    width: 100%;
+    align-items: center;
+    padding: 10px;
+    height: 110px;
+    
+}
+textarea{
+    width: 70%;
+    //height: 42px;
+    border: none;
+    outline: none;
+    resize: none;
+    float: left;
+    //margin: 0 0 28px 18px;
+    background: #efefef;
+}
+.iconos-action{
+    display: flex;
+    background:transparent ;
+    align-items: center;
+}
+.item{
+        margin: 0 5px;
+}
+.msg{
+    background: #efefef;
+    border-radius: 6px;
 }
 </style>
 
