@@ -12,28 +12,39 @@
 
     </div>
     <div class="contenido">
-        <div class="mensajes">
-            <p>Jueves 28 de junio 23:20</p>
-        </div>
-        <div class="mensajes mensaje-recibido">
-            <p>Acudo a Uds. porque tengo un problema que me parece que se puede solucionar por customizing...
-           </p>
-        </div>
-        <div class="mensajes mensaje-recibido">
-            <p>Atento a su respuesta</p>
-        </div>
-         <div class="mensajes mensaje-enviado">
-            <p>Atento a su respuesta</p>
-        </div>
-        <div class="mensajes mensaje-recibido">
-            <p>Acudo a Uds. porque tengo un problema que me parece que se puede solucionar por customizing...
-           </p>
+        <div class="con">
+            <div class="cont">
+                <div class="mensajes">
+                    <p>Jueves 28 de junio 23:20</p>
+                </div>
+                <div class="mensajes mensaje-recibido">
+                    <p>Acudo a Uds. porque tengo un problema que me parece que se puede solucionar por customizing...
+                </p>
+                </div>
+                <div class="mensajes mensaje-recibido">
+                    <p>Atento a su respuesta</p>
+                </div>
+                <div class="mensajes mensaje-enviado">
+                    <p>Atento a su respuesta</p>
+                </div>
+                <div class="mensajes mensaje-recibido">
+                    <p>Acudo a Uds. porque tengo un problema que me parece que se puede solucionar por customizing...
+                </p>
+                </div>
+                <div class="mensajes mensaje-enviado">
+                    <p>Atento a su respuesta</p>
+                </div>
+                <div class="mensajes mensaje-enviado">
+                    <p>Acudo a Uds. porque tengo un problema que me parece que se puede solucionar por customizing...
+                </p>
+                </div>
+            </div>
         </div>
     </div>
     <div class="escribir">
-        <div class="mensseger columns">
-            <div class="img column is-2"><img src="../assets/recursos/foto-01.png" style="border-radius: 50%;" width="35px" height="35px"></div>
-            <div class="msg column is-10">
+        <div class="mensseger columns ">
+            <div class="img column is-2-mobile"><img src="../assets/recursos/foto-01.png" style="border-radius: 50%;" width="35px" height="35px"></div>
+            <div class="msg column is-10-mobile">
                 <textarea placeholder="Escribe un mensaje"></textarea>
                 <div class="iconos-action">
                     <a href="javascript:void(0)" class="item"><img src="../assets/mensajes/icon-adjunto.png" width="25px" height="35px"></a>
@@ -43,7 +54,6 @@
                     
                 </div>
             </div>
-            
         </div>
     </div>
 </div>
@@ -105,6 +115,8 @@ $grisc:#D3D3D3;
 }
 .contenido{
     position: absolute;
+  
+
 }
 .mensajes{
     position: relative;
@@ -138,6 +150,7 @@ $grisc:#D3D3D3;
         float: right;  
         color: $gris;
         clear: both; 
+        margin-right: 26px;
     }
 }
 .escribir{
@@ -153,6 +166,7 @@ $grisc:#D3D3D3;
     align-items: center;
     padding: 10px;
     height: 110px;
+    display: flex;
     
 }
 textarea{
@@ -176,6 +190,19 @@ textarea{
 .msg{
     background: #efefef;
     border-radius: 6px;
+}
+.cont{
+    position: relative;
+    height: 56vh;
+    overflow: hidden;
+    overflow-y: scroll;
+    right: -17px;
+}
+.con{
+    top:10px;
+    overflow: hidden;
+    right: 9px;
+    position: relative;
 }
 </style>
 
